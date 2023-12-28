@@ -1,6 +1,8 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
+//File for automating login functionality
+
 //Open the Chrome browser
 
 IWebDriver driver = new ChromeDriver();
