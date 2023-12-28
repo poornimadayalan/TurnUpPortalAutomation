@@ -31,9 +31,9 @@ IWebElement hellohari = driver.FindElement(By.XPath("//*[@id='logoutForm']/ul/li
 
 if (hellohari.Text == "Hello hari!")
 {
-    System.Console.WriteLine("User is correctly logged in!");
+    System.Console.WriteLine("User Hari is correctly logged in!");
 }
 else
 {
-    System.Console.WriteLine("Login failed. Please try again.");
+    System.Console.WriteLine("Login failed for User Hari. Please try again.");
 }
