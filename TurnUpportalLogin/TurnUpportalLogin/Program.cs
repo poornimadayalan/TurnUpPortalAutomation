@@ -1,11 +1,13 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-//File for automating login functionality
-
 //Open the Chrome browser
 
 IWebDriver driver = new ChromeDriver();
+
+// Login functionality
+ 
+System.Console.WriteLine("Start Automation - Login functionality");
 
 //Launch TurnUp portal and navigate to website login page
 
@@ -39,3 +41,6 @@ else
 {
     System.Console.WriteLine("Login failed for User Hari. Please try again.");
 }
+
+System.Console.WriteLine("End Automation - Login functionality");
+
