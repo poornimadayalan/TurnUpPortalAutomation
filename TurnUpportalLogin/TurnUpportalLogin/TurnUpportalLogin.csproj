@@ -10,6 +10,7 @@
     <None Remove="Selenium.WebDriver" />
     <None Remove="Selenium.Support" />
     <None Remove="Selenium.WebDriver.ChromeDriver" />
+    <None Remove="..\.editorconfig" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.App" Version="2.2.8" />
